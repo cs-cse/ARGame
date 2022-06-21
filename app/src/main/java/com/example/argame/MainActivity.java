@@ -166,6 +166,7 @@ private void setEnemyToTheScene(){
                 node.setWorldPosition(position);
                 node.setLocalRotation(Quaternion.axisAngle(new Vector3(0,1f,0),230));
                 scene.addChild(node);
+
             }
         });
     }
