@@ -46,11 +46,15 @@ dependencies {
 
 }
 apply plugin: 'com.google.ar.sceneform.plugin'
+//apply plugin:'com.google.gms.google-services'
+
 sceneform.asset('sampledata/model/obj',
         'default',
         'sampledata/model.sfa',
         'src/main/assets/model'
 
 )
+
+
 
 

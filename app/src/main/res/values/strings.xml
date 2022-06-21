@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ARRGame</string>
+<!--    <string destination="src/main/assets/wizard" name="TODO"></string>-->
 </resources>

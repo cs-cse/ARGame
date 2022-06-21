@@ -149,6 +149,7 @@ private void startTimer(){
 }
 @RequiresApi(api = Build.VERSION_CODES.N)
 private void setEnemyToTheScene(){
+
         ModelRenderable.builder()
                 .setSource(this, Uri.parse("model.sfb"))
                 .build()
