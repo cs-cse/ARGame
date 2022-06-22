@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.argame">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sample.argame">
 
 <!--Adding permissions for camera and harware for AR implementation-->
     <uses-permission android:name="android.permission.CAMERA"/>
@@ -17,7 +18,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ARGame">
         <activity
-            android:name=".MainActivity"
+            android:name="com.sample.argame.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,9 +27,8 @@
             </intent-filter>
         </activity>
 
-        <meta-data
-            android:name="com.google.ar.core"
-            android:value="required" />
+        <meta-data android:name="com.google.ar.core" android:value="optional" />
+
 
     </application>
 

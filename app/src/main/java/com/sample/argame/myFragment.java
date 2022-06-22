@@ -1,4 +1,4 @@
-package com.example.argame;
+package com.sample.argame;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

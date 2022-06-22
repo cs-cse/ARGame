@@ -1,4 +1,4 @@
-package com.example.argame;
+package com.sample.argame;
 
 import org.junit.Test;
 
