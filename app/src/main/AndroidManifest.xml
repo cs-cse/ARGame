@@ -11,9 +11,9 @@
         android:required="true" />
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/wizardlogo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/wizardlogo"
         android:supportsRtl="true"
         android:theme="@style/Theme.ARGame">
         <activity
